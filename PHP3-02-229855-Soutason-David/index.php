@@ -11,7 +11,7 @@ if (($handle = fopen("paris.csv", "r")) !== FALSE) {
         echo "<p> $num champs à la ligne $row: <br /></p>\n";
         $row++;
         for ($c=0; $c < $num; $c++) {
-            var_dump($data); 
+            var_dump($data);
             echo $data[$c] . "<br /> <hr>\n";
 
         }
@@ -25,6 +25,7 @@ $handle = fopen("paris.csv", "r");
 while (($data = fgetcsv($handle)) !== FALSE) {
     var_dump($data);
 }
+
 
 
  ?>
