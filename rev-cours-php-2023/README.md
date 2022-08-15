@@ -56,3 +56,16 @@ PHP et un langage script open source in venter par Ramus Lendorf.
 
 langage  script orienter serveur ter proche du langage du langage C,
 PHP permet de créer des apllicatiopn et des page webe dinmique.
+
+afichage avec double "" ou simple '' quote
+
+si le texte que l'on afficher entre simple quote compore ce une apostrophe ' qui et interprète comme une simple quote
+php nous done la posibiliter de l'echaper en fesent preseder la pontuation  d'un entie slash \
+
+si non nous povons utiliser les double quote ""
+
+php dipose de tois type de comentaire
+
+// pour cometer une ligne
+/* */ pour cometer un boque de ligne
+\# pour comenter une ligne  
