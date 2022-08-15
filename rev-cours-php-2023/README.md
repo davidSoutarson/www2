@@ -85,3 +85,73 @@ php dipose de tois type de comentaire
 /* */ pour cometer un boque de ligne
 
 \# pour comenter une ligne  
+
+Declaration de variable
+
+les variable sont sont des element fondamenteaux de tout lengage de programation
+
+Les variable en php comense le signe $ et se termine par ;
+
+le poin vergule et obligatoir et sinifie la fin d'une intruction
+
+le signe egale et unsigne afectation ou atribution
+
+$nomDeLaVarible ;
+
+$jour1 = "lundi";
+
+Un nom de variable doit être explicite, et de préférence en anglais
+(langue internationale)
+
+notation en lowerCamelCase
+
+firstDayWeek = ' lundi ';
+
+le point permet de juxtaposer deux element om parle d'operteur de cocatenation
+
+$sport = 'basket';
+
+echo 'nous pratiquon le ' .$sport ;
+
+$saison = 'autone';
+
+echo 'les feuilles tombent en <strong>' .$saison . '</strong>'
+
+Definir une constante
+
+un contante aura un nom de constate et une valeur; par convention le nom des constate est
+en letre CAPITE majuscule el n'est preseder docun signe.
+
+Pour déclarer une constante, nous utilisons la fonction PHP define.
+ – nous ouvrons une parenthèse ;
+ – nous écrivons le nom de la constante entre deux quotes ;
+ – nous ajoutons une virgule pour séparer le nommage de la constante
+avec la définition de sa valeur ;
+ – nous écrivons ensuite la valeur de la constante (en utilisant les quotes
+si cette valeur est une chaîne de caractères) ;
+ – nous fermons la parenthèse ;
+ – le point-virgule indique la fin de l’instruction
+
+ define('HOME,index.php');
+ echo '<a href = "'.HOME.'"'> Acceile </a>
+
+ Les condition les operateur et les boucles
+
+ I Les conditions
+ 
+  A. if else
+  B. Switch
+
+  II. Les opérateurs
+
+  A . Opérateurs d’assignation
+  B . Opérateurs de comparaison
+  C . Opérateurs de calcul
+  D . Opérateurs combinés
+  E . Opérateurs logiques : AND, OR
+
+III. Les boucles
+
+  A . La boucle while
+  B . La boucle for
+  C . La boucle foreach
