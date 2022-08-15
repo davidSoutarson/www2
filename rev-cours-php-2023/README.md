@@ -46,7 +46,7 @@ page : fichiers aficher dans un navigateur
 
  URL: est construite comme ceci : http://nomduserveur/dossier/fichier.php
 
-Le php un langage serveur 
+Le php un langage serveur
 
 PHP le langage php fonction grase a un esintax presise et rigoureus.
 Le premier travail à fournir est d’observer attentivement ces règles syntaxiques
@@ -55,4 +55,4 @@ puis de les reproduire pas à pas.
 PHP et un langage script open source in venter par Ramus Lendorf.
 
 langage  script orienter serveur ter proche du langage du langage C,
-PHP permet de créer des apllicatiopn et des page webe dinmique
+PHP permet de créer des apllicatiopn et des page webe dinmique.
