@@ -48,6 +48,8 @@ page : fichiers aficher dans un navigateur
 
 Le php un langage serveur
 
+SYTAXSE DU PHP
+
 PHP le langage php fonction grase a un esintax presise et rigoureus.
 Le premier travail à fournir est d’observer attentivement ces règles syntaxiques
 puis de les reproduire pas à pas.
@@ -56,6 +58,18 @@ PHP et un langage script open source in venter par Ramus Lendorf.
 
 langage  script orienter serveur ter proche du langage du langage C,
 PHP permet de créer des apllicatiopn et des page webe dinmique.
+
+ les balise php
+
+ Les balises PHP déterminent les blocs de code PHP. Lorsque le processeur
+PHP analyse un fichier, il cherche les balises d’ouverture et de fermeture,
+qui délimitent le code qu’il doit interpréter.
+
+< ? php
+
+code php  qui sera interpréter
+
+?>
 
 afichage avec double "" ou simple '' quote
 
