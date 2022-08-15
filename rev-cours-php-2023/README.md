@@ -138,20 +138,29 @@ si cette valeur est une chaîne de caractères) ;
  Les condition les operateur et les boucles
 
  I Les conditions
- 
+
   A. if else
+
   B. Switch
 
   II. Les opérateurs
 
-  A . Opérateurs d’assignation
+  A . Opérateurs d’assignation ou affectation
+
+  l'operateur d'assignation lors de la declaration de variable et le signe = égale
+
   B . Opérateurs de comparaison
+
   C . Opérateurs de calcul
+
   D . Opérateurs combinés
+
   E . Opérateurs logiques : AND, OR
 
 III. Les boucles
 
   A . La boucle while
+
   B . La boucle for
+  
   C . La boucle foreach
