@@ -67,5 +67,7 @@ si non nous povons utiliser les double quote ""
 php dipose de tois type de comentaire
 
 // pour cometer une ligne
+
 /* */ pour cometer un boque de ligne
+
 \# pour comenter une ligne  
