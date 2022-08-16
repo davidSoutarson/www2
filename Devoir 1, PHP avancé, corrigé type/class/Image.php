@@ -2,11 +2,13 @@
 
 class Image {
 
+    //recuper le non des sous repertoir.
     public function nameSubdir($name) {
         // suppression des 8 derniers caractères de $name
         return substr($name, 0, -8);
     }
 
+    // un sous dossier
     public function createSubdir($image_dir, $subdir_list) {
         $subdirs = array_unique($subdir_list);
         foreach ($subdirs as $subdir) {
@@ -17,6 +19,7 @@ class Image {
         }
         return $subdirs;
     }
+
 
     public function moveImage($image_dir, $image_list, $subdir_list) {
         foreach ($image_list as $image) {
@@ -29,6 +32,7 @@ class Image {
         }
     }
 
+    //lir le contenue dun dosier
     public function parseDir($image_dir) {
         if ($handle = opendir($image_dir)) {
             while (false !== ($file = readdir($handle))) {
@@ -48,6 +52,6 @@ class Image {
             $subdir_list = null;
         }
         // retourne liste des images et sous-répertoires
-        return ['image_list' => $image_list , 'subdir_list' => $subdir_list];
+        return ['image_list' => $image_list , 'subdir_list' => $subdir_list]; // retourne
     }
 }

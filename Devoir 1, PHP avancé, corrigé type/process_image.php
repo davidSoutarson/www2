@@ -9,7 +9,11 @@ require('class/Image.php');
 $image = new Image();
 // parse images/ et récupérons liste des fichiers et répertoires
 $image_data = $image->parseDir($image_dir);
+
+//il ny a pas de lectur prosedurale
+
 $subdir_list = $image_data['subdir_list'];
+
 $image_list = $image_data['image_list'];
 // $image_list est 'null' si aucune image n'est présente dans le répertoire
 if(!isset($image_list)) {

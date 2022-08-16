@@ -145,13 +145,19 @@ si cette valeur est une chaîne de caractères) ;
 
   II. Les opérateurs
 
-  A . Opérateurs d’assignation ou affectation
+  A . Opérateurs d’assignation ou affectation:
 
   l'operateur d'assignation lors de la declaration de variable et le signe = égale
 
   B . Opérateurs de comparaison
 
+  les Opérateurs de comparaison permete de compare des valeurs entre elles
+
+  liste des operateur de compareson  == egaliter != diferan  === identique >srictement superieur <srictement inferieur  >=superieur ou egal  <= inferieur ou egale
+
   C . Opérateurs de calcul
+
+  liste des operateur de calcule + Adition - Soustraction * Multiplication / Divition  % Modulo
 
   D . Opérateurs combinés
 
@@ -162,5 +168,5 @@ III. Les boucles
   A . La boucle while
 
   B . La boucle for
-  
+
   C . La boucle foreach
