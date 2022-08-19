@@ -161,12 +161,31 @@ si cette valeur est une chaîne de caractères) ;
 
   D . Opérateurs combinés
 
+  +=   PLUS EGALITER
+  $i++ INCREMENTATION
+  $i-- DECREMENTATION
+  .=   POINT EGALE CONTCATENATION ABREGER
+
   E . Opérateurs logiques : AND, OR
+
+  AND c'est un est logiques cela siyfie que les propositions doive etre vais en maime temps.
+
+
+  OR c'est un ou logique et XOR et le ou logique exclusif, qui signifie
+  ou bien : soit l'une ou soit l'autre des propositions doit être vraie.
+  Par Exemple, si nous cherchons un nombre qui soit plus grand que 5 ou plus
+  petit que 7, le résultat peut être n’importe quel nombre.
+  En effet, 24 sera plus grand que 5, tandis que 3 sera plus petit que 7.
+
 
 III. Les boucles
 
   A . La boucle while
 
   B . La boucle for
+  La boucle for est une structure de contrôle très utilisée.
+
 
   C . La boucle foreach
+  La boucle foreach est utilisée uniquement dans le cas des tableaux de
+données (array) et est détaillée dans le chapitre des tableaux de données.
