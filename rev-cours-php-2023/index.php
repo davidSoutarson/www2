@@ -32,7 +32,7 @@ $clase_6emB =[
 // echo "\nLes information par info\n";
 // echo $clase_6emB ['nom'][0];
 // echo "\nLes information par info\n";
-// echo  $clase_6emB ['prenom'][0];
+// echo  $clase_6emB ['prenom'][0]; 
 
 echo "\nLes information par info 2\n";
 
