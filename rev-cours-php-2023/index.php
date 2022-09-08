@@ -53,10 +53,12 @@ var_dump($ttxClase);
 
 
 echo "<br> Les fontion str native php <br>";
+echo "----------------------------------------------------------------------- <br>";
+echo "<strong>strlen</strong> ranvoie : la longeur d'une chaine de carater <br> EX Bonjour à tous <br>";
+echo strlen("Bonjour à tous").'<br>';
+echo "<strong> str_word_count</strong> : revoie le nombre de mots d'une chene de carater <br> EX Bonjour à tous <br>";
+echo str_word_count("Bonjour à tous").'<br>';
 echo "-----------------------------------------------------------------------";
-echo '<br>'.strlen("Bonjour à tous").'<br>';
-echo '<br>'.str_word_count("Bonjour à tous").'<br>';
-
 
  ?>
  <p>Lien vert exenple de <strong>conextion</strong> de base de donner mysqul PDO .</p>
@@ -65,4 +67,12 @@ echo '<br>'.str_word_count("Bonjour à tous").'<br>';
 
  <p>Lien vert exenple de <strong>creation </strong> de base de donner mysqul PDO .</p>
  <p>Le non du fichier est:<strong>creation-BD-PDO-mySQL.php</strong> </p>
- <a href="creation-BD-PDO-mySQL.php">création PDO-mySQL </a>
+ <a href="creation-BD-PDO-mySQL.php">création Base PDO-mySQL </a>
+
+ <p>Lien vert exenple de <strong>creation de Table </strong> dans base de donner mysqul exitente PDO .</p>
+ <p>Le non du fichier est:<strong>creation-Table-BD-PDO-mySQL.php</strong> </p>
+ <a href="creation-Table-BD-PDO-mySQL.php">création Table PDO-mySQL </a>
+
+ <p>Lien vert exenple de <strong>insertion de donner dans Table </strong> dans base de donner mysqul exitente PDO .</p>
+ <p>Le non du fichier est:<strong>insertion-donner-PDO-mySQL.php</strong> </p>
+ <a href="insertion-donner-PDO-mySQL.php">insertion de donner dans Table PDO-mySQL </a>
