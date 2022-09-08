@@ -14,3 +14,5 @@ catch(PDOException $erreur){
   echo "Echeque de la conextion :" . $erreur->getMessage();
 }
  ?>
+
+<p> <a href="index.php">retour a index</a> </p>  

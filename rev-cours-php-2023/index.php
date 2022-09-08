@@ -59,4 +59,10 @@ echo '<br>'.str_word_count("Bonjour à tous").'<br>';
 
 
  ?>
- <a href="conextion-PDO-mySQL.php">conextion</a>
+ <p>Lien vert exenple de <strong>conextion</strong> de base de donner mysqul PDO .</p>
+ <p>Le non du fichier est:<strong>conextion-PDO-mySQL.php </strong> </p>
+ <a href="conextion-PDO-mySQL.php">conextion PDO-mySQL </a>
+
+ <p>Lien vert exenple de <strong>creation </strong> de base de donner mysqul PDO .</p>
+ <p>Le non du fichier est:<strong>creation-BD-PDO-mySQL.php</strong> </p>
+ <a href="creation-BD-PDO-mySQL.php">création PDO-mySQL </a>
