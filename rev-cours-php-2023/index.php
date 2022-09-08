@@ -39,16 +39,12 @@ echo "\nLes information par info 2\n <br>";
 for ($i=0; $i < 5 ; $i++) {
 $teste[] = $clase_6emB ['nom'] [$i]."-".$clase_6emB ['prenom'] [$i] ;
 }
-
 //print_r($teste);
-
 //echo $teste[3];
-
 $ttxClase = [
   'NP' => $teste,
   'notes' => [10, 20, 15, 13,]
 ];
-
 var_dump($ttxClase);
 
 
@@ -75,4 +71,19 @@ echo "-----------------------------------------------------------------------";
 
  <p>Lien vert exenple de <strong>insertion de donner dans Table </strong> dans base de donner mysqul exitente PDO .</p>
  <p>Le non du fichier est:<strong>insertion-donner-PDO-mySQL.php</strong> </p>
- <a href="insertion-donner-PDO-mySQL.php">insertion de donner dans Table PDO-mySQL </a>
+ <a href="static-insertion-donner-PDO-mySQL.php">insertion de donner dans Table PDO-mySQL </a>
+
+ <p>Lien vert exenple de <strong>insertion mutiple de donner dans Table </strong> dans base de donner mysqul exitente PDO .</p>
+ <p>Le non du fichier est:<strong>static-insertion-mutiple-donner-PDO-mySQL.php</strong> </p>
+ <a href="sta-inser-mutiple-BD-PDO-mySQL.php">insertion de plusier donner dans Table PDO-mySQL </a>
+
+ <p>Lien vert exenple de <strong>requete preparer pour insertion multiple dans la base de donner </strong> mysqul exitente PDO .
+ <br>Les requete preparer les aventatage minimise le rique d'unjection sql de cette metho plus rapide plus eficase
+ <br>la preparation des requete sefetue en trois fase</p>
+ <ol>
+   <li>fase de preparation: creation d'un tamplaite en laisen setin parametre sans valeur </li>
+   <li>fase de compilation: la base de donner analise compile et optimise le template et stoke le resulta sans lexecuter  </li>
+   <li>fase d'execution  </li>
+ </ol>
+ <p>Le non du fichier est : <strong>requete-preparer-insertion-mutiple-donner-PDO-mySQL.php</strong> </p>
+ <a href="requet-preparer-BD-PDO-mySQL.php">requete-preparer-pour-insertion-mutiple-donner-PDO-mySQL </a>
