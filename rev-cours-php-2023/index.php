@@ -85,5 +85,13 @@ echo "-----------------------------------------------------------------------";
    <li>fase de compilation: la base de donner analise compile et optimise le template et stoke le resulta sans lexecuter  </li>
    <li>fase d'execution  </li>
  </ol>
- <p>Le non du fichier est : <strong>requete-preparer-insertion-mutiple-donner-PDO-mySQL.php</strong> </p>
+ <p>Le non du fichier est : <strong>requet-preparer-BD-PDO-mySQL.php</strong> </p>
  <a href="requet-preparer-BD-PDO-mySQL.php">requete-preparer-pour-insertion-mutiple-donner-PDO-mySQL </a>
+
+ <p>Lien vert exenple de <strong>selection de donner dans Table </strong> dans base de donner mysqul exitente PDO .</p>
+ <p>Le non du fichier est:<strong>selec-donnees-BD-PDO-mySQL.php</strong> </p>
+ <a href="selec-donnees-BD-PDO-mySQL.php">insertion de plusier donner dans Table PDO-mySQL </a>
+
+ <p>Lien vert exenple de <strong>modification Table ajoue de colone </strong> dans base de donner mysqul exitente PDO .</p>
+ <p>Le non du fichier est:<strong> modifier-table-BD-PDO-mySQL.php </strong> </p>
+ <a href="modifier-table-BD-PDO-mySQL.php">Modification ajout colone Table PDO-mySQL </a>
