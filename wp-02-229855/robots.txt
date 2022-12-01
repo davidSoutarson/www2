@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /wp-02-229855/wp-admin/
+Allow: /wp-02-229855/wp-admin/admin-ajax.php
+
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: http://localhost/wp-02-229855/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK
