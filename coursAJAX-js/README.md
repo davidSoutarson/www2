@@ -22,3 +22,29 @@ A inverse dans une application web sans Ajax, lorsqu’un utilisateur clique sur
 il soumet un formulaire, sa requête est transmise au serveur qui la traite puis renvoie sa réponse
 sous la forme d’une page HTML pour remplacer la page existante. On dit que la requête est
 synchrone.
+
+## prerequi utiliser AJAX & Syntax JavaScript
+
+Avoir de bonne notion dans les languages informatique suivant: HTML, PHP, javascript, CSS.
+
+syntaxe:
+
+varible=new XMLHttpRequest();
+
+L’objet JavaScript XMLHttpRequest permet l’échange de données asynchrones, en tâche de fond, avec le serveur.
+
+Comme souvant gére des moteur de recherche oblige pour les enciene vertion intenet exploreur IE6 IE5
+
+xmlhttp=new ActiveXObject ("Mricrosoft.XMLHTTP");
+
+Pour une large Compatibiliter: EX
+
+var xmlhttp;
+if (window.XMLHttpRequest)
+{// code pour IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp = new XMLHttpRequest ();
+}
+else
+{
+  xmlhttp=new ActiveXObject ("Mricrosoft.XMLHTTP");
+}
