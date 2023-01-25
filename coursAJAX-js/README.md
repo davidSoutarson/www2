@@ -40,11 +40,17 @@ xmlhttp=new ActiveXObject ("Mricrosoft.XMLHTTP");
 Pour une large Compatibiliter: EX
 
 var xmlhttp;
+
 if (window.XMLHttpRequest)
+
 {// code pour IE7+, Firefox, Chrome, Opera, Safari
-  xmlhttp = new XMLHttpRequest ();
+
+  xmlhttp = new XMLHttpRequest ();  
 }
+
 else
-{
+
+{  
   xmlhttp=new ActiveXObject ("Mricrosoft.XMLHTTP");
-}
+   
+}  
