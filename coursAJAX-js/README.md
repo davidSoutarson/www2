@@ -1,6 +1,6 @@
 Cours Se perfectionner en javascript: Utiliser Ajax pour dialoguer avec un serveur
 ==================================================================================
-travail realiser par:
+travail realiser par: David Soutarson https://youtu.be/J0pm1mp77Pw
 ---------------------
 * Nom. Soutarson
 * Prenom. David
