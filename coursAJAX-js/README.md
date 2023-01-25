@@ -8,8 +8,8 @@ travail realiser par: David Soutarson https://youtu.be/J0pm1mp77Pw
 
 AJAX c'est quoi? Ca ser a quoi?
 =================================
-# AJAX: acronym (Asynchron javascript And XML)
-Est une technique pour créer des applications web plus dynamiques, plus rapides et plus interactives.
+## AJAX: acronym (Asynchron javascript And XML)
+AJAX est une technique pour créer des applications web plus dynamiques, plus rapides et plus interactives.
 
 Dans une application web utilisant Ajax, lorsqu’un utilisateur clique sur un lien
 ou quand il soumet un formulaire, la requête, préparée par JavaScript est envoyée au serveur qui la traite
