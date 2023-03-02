@@ -1,14 +1,38 @@
+//detection soumition formulaire
+document.getElementById('inscription').addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  var xhr = new XMLHttpRequest();
+
+  //diferent tretement
+  xhr.onreadystatechange = function() {
+    console.log(this);
+  };
+
+  //initiation de la XMLHttpRequet
+  xhr.open("GET","exemple1.php", true);
+  //anvoi de la requette
+  xhr.send();
+
+  return false;
+});
+//----------------------------------------------------------------------
 var demo = document.getElementById('demo');
-var xhr = new XMLHttpRequest();
+ document.querySelector('button').addEventListener("click", function(e) {
+  e.preventDefault();
 
-xhr.onreadystatechange = function(){
-  console.log(this);
-  if(this.readyState == 4 && this.status ==200){
-    //demo.innerHTML = this.responseText;
-    demo.innerHTML = this.response;
-  }
-}
+  var xhr = new XMLHttpRequest();
 
-xhr.open("GET", "http://localhost/coursAJAX-js/exemple1.php", true);
-// xhr.open("GET", "exemple1.php", true); se chemin et valable
-xhr.send("");
+  //diferent tretement
+  xhr.onreadystatechange = function() {
+    console.log(this);
+    demo.innerHTML = this.responseText;
+  };
+
+  //initiation de la XMLHttpRequet
+  xhr.open("GET","exemple1.php", true);
+  //anvoi de la requette
+  xhr.send();
+
+  return false;
+});
